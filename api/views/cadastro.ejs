@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo - Cadastro</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/cadastro.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <img class="menu" src="images/index/menu-burger-svg.png" alt="">
+            <ul class="list">
+                <li class="link"><a href="/">Início</a></li>
+                <li class="link"><a class="ative" href="/cadastro">Cadastro</a></li>
+                <li class="link"><a href="/reserva">Reserva</a></li>
+                <li class="link"><a href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a href="/historia">História</a></li>
+                <li class="link"><a href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+
+    <main>
+        <section class="table-cadastro">
+            <fieldset>
+                <legend>Faça seu cadastro:</legend>
+
+                <% if (error) { %>
+                    <p class="error" style="color: red;"><%= error %></p>
+                <% } %>
+
+                <form class="table" action="/cadastro" method="POST">
+                    <input class="nome border" type="text" name="nome" placeholder="Nome" required>
+                    <input class="email border" type="email" name="email" placeholder="E-mail" required>
+                    <input class="password border" type="password" name="senha" placeholder="Senha" required>
+                    <button class="button border" type="submit">Cadastrar</button>
+                </form>
+
+                <h3>Já possui uma conta? <a href="/login">Entre já!</a></h3>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

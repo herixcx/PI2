@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <ul class="list">
+                <li class="link"><a class="ative" href="/">Inicio</a></li>
+                <li class="link"><a href="/login">Login</a></li>
+                <li class="link"><a href="/reserva">Reserva</a></li>
+                <li class="link"><a href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a href="/historia">História</a></li>
+                <li class="link"><a href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+    <main>
+        <section class="table-index">
+            <h2 class="title">Bem-vindo ao Sabores del Cielo! <br><br> O destino perfeito para quem deseja mergulhar na cultura mexicana e nos sabores autênticos do México. Inspirado na vibrante celebração do Dia de los Muertos, nosso restaurante oferece uma experiência única que celebra a vida e homenageia as tradições culinárias passadas de geração em geração.<br><br>Nossa cozinha é um tributo aos nossos antepassados, com um menu cuidadosamente elaborado que destaca pratos tradicionais preparados com ingredientes frescos. Cada mordida é uma jornada gastronômica, dos tacos suculentos aos moles ricos, até os doces típicos que adicionam um toque de doçura à nossa celebração.</h2>
+        </section>
+    
+    </main>
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/historia.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <ul class="list">
+                <li class="link"><a href="/">Inicio</a></li>
+                <li class="link"><a href="/login">Login</a></li>
+                <li class="link"><a href="/reserva">Reserva</a></li>
+                <li class="link"><a href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a class="ative" href="/historia">História</a></li>
+                <li class="link"><a href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+    <main>
+        <section class="table-historia">
+            <div class="content">
+            <h2 class="title">
+                    Há 15 anos, o Sabores del Cielo nasceu com a missão de celebrar a rica tradição culinária do México, inspirada no Dia de los Muertos. Fundado por uma família apaixonada pelos sabores e pela cultura mexicana, o restaurante se tornou um refúgio para os amantes da autêntica cozinha mexicana, onde cada prato é preparado com receitas tradicionais e ingredientes frescos.
+                    Ao longo dos anos, mantivemos viva a essência da culinária mexicana, oferecendo uma experiência única em um ambiente decorado com elementos do Dia de los Muertos. Aqui, honramos nossos antepassados e compartilhamos um pedacinho do céu através dos sabores que encantam nossos visitantes.</h2>
+                </div>
+             </section>
+        <section class="img">
+            <img class="img" src="images/historia/sabo1.png" alt="Imagem do restaurante">
+        </section>
+    </main>
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

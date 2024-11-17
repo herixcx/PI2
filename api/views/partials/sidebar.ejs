@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" media="screen" href="/estilos/sidebar.css">
+
+
+<aside class="sidebar">
+    <div class="user-info">
+        <% if (user) { %>  <!-- Início do bloco condicional -->
+            <!-- Exibe o nome e e-mail do usuário se ele estiver logado -->
+            <p class="text-sidebar">Bem-vindo, <%= user.name %></p>
+            <p class="text-sidebar"><%= user.email %></p>
+            <a href="/logout">Sair</a>
+        <% } else { %>  <!-- Caso o usuário não esteja logado -->
+            <!-- Exibe as opções de login e cadastro -->
+            <a href="/login">Login</a>
+            <a href="/cadastro">Cadastrar</a>
+        <% } %>  <!-- Fim do bloco condicional -->
+    </div>
+</aside>

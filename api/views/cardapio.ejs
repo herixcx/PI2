@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/cardapio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <ul class="list">
+                <li class="link"><a href="/">Inicio</a></li>
+                <li class="link"><a href="/login">Login</a></li>
+                <li class="link"><a href="/reserva">Reserva</a></li>
+                <li class="link"><a href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a href="/historia">História</a></li>
+                <li class="link"><a class="ative" href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+            <h1 class="title">Cardápio:</h1>
+            <div class="main-table">
+                <div class="links-cardapio">
+                    <h2 class="link-cardapio"><a href="" id="linkAlmoco">Almoço</a></h2>
+                    <h2 class="link-cardapio"><a href="" id="linkJantar">Jantar</a></h2>
+                </div>
+                <div class="cardapio-table" id="almoco">
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/tacosal.png" alt="Tacos al Pastor">
+                        <h3 class="text">Tacos al Pastor: <br> Tacos com carne de porco marinada e abacaxi. </h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/enchiladas.png" alt="Enchiladas Verdes">
+                        <h3 class="text">Enchiladas Verdes: <br>Tortilhas recheadas com frango e cobertas com molho verde.</h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/sopes.png" alt="Sopes de Frijoles">
+                        <h3 class="text">Sopes de Frijoles: <br>Tortilhas grossas com feijão, carne e vegetais.</h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/burritos.png" alt="Burritos">
+                        <h3 class="text">Burritos: <br>Tortilhas grandes recheadas com arroz, feijão, carne e molho.</h3>
+                    </div>
+                </div>
+                <div class="cardapio-table hidden" id="jantar">
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/chiles.png" alt="Chiles en Nogada">
+                        <h3 class="text">Chiles en Nogada: <br>Pimentões recheados com carne, cobertos com molho de nozes</h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/tamales.png" alt="Tamales de Pollo">
+                        <h3 class="text">Tamales de Pollo: <br>Massas de milho recheadas com frango, cozidas em folhas de milho.</h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/mole.png" alt="Mole Poblano">
+                        <h3 class="text">Mole Poblano: <br>Frango servido com molho de mole, geralmente acompanhado de arroz.</h3>
+                    </div>
+                    <div class="cardapio">
+                        <img class="img" src="images/cardapio/cevi.png" alt="Ceviche">
+                        <h3 class="text">Ceviche: <br>Peixe marinado, fresco e leve, ideal para uma refeição à noite.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+    <script src="/js/cardapio.js"></script>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

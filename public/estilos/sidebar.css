@@ -1,0 +1,52 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    box-sizing: border-box;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.user-info {
+    text-decoration: none;
+    color: #f3efec;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-info > a {
+    text-decoration: none;
+    color: #f3efec;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-sidebar {
+    text-decoration: none;
+    color: #f3efec;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-info p {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.user-info p,
+.user-info a {
+    margin-bottom: 10px;
+    word-wrap: break-word; 
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/reserva.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <ul class="list">
+                <li class="link"><a href="/">Inicio</a></li>
+                <li class="link"><a href="/login">Login</a></li>
+                <li class="link"><a class="ative" href="/reserva">Reserva</a></li>
+                <li class="link"><a href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a href="/historia">História</a></li>
+                <li class="link"><a href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+    <main>
+        <section class="table-reserva">
+            <fieldset>
+                <legend>Faça sua reserva:</legend>
+                <form class="table" action="">
+                    <input class="number border" type="number" placeholder="Número de pessoas" required>
+                    <input class="date border" type="date" placeholder="Dia" required>
+                    <input class="time border" type="time" placeholder="Horário" required>
+                    <input class="text border" type="text" placeholder="Nome" required>
+                    <input class="email border" type="email" placeholder="E-mail" required>
+                    <textarea class="textarea border" name="" id="" placeholder="Oberservações"></textarea>
+                    <button class="button border">Salvar</button>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

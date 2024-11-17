@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rounded';
+    src: url(/fontes/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'rounded1';
+    src: url(/fontes/Quicksand-VariableFont_wght.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+/*nav*/
+header {
+    font-family: 'rounded';
+    display: flex;
+    flex-direction: row;
+    background-color: #F3752B;
+    width: 100%;
+    height: 23vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    margin: 1.5625rem 0 1.5625rem 2.5rem;
+    align-self: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5625rem;
+    align-self: center;
+    padding-right: 2.5rem;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.link > a {
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link > a:hover {
+    color: #F7DBA7;
+}
+
+/*nav pagina atual*/
+.ative {
+    color: #F7DBA7 !important;
+}
+/*end nav pagina atual*/
+/*end nav*/
+
+/*main*/
+main {
+    background-image: url(/images/background/fundo5.png);
+    background-size: cover;
+    font-family: 'rounded1';
+    color: #8B4513;
+    display: flex;
+    background-color: #F7DBA7;
+    width: 100%;
+    justify-content: center;
+    height: calc(100% - 29vh);
+}
+
+.table-reserva {
+    background-color: #ffffff7c;
+    border-radius: 30px;
+    width: 42.1875rem;
+    margin: 1.5625rem 0;
+}
+
+fieldset {
+    margin: 1.5625rem 7.8125rem;
+    border: none;
+}
+
+legend {
+    font-family: 'rounded';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.5625rem;
+    align-self: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+}
+
+.border {
+    font-family: 'rounded1';
+    border-radius: 15px;
+    border: 1px solid #8B4513;
+    height: 2.8125rem;
+    padding: 0 3.4375rem;
+    font-weight: bold;
+    color: #8B4513;
+    font-size: 20px;
+}
+
+.number {
+    background-image: url(/images/reserva/people.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+    
+}
+
+.date {
+    background-image: url(/images/reserva/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.date::-moz-calendar-picker-indicator {
+    display: none;
+}
+
+.date::-ms-clear {
+    display: none; 
+}
+
+.time {
+    background-image: url(/images/reserva/clock.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+}
+
+.time::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.time::-moz-calendar-picker-indicator {
+    display: none;
+}
+
+.time::-ms-clear {
+    display: none; 
+}
+
+.text {
+    background-image: url(/images/reserva/profile.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+}
+
+.email {
+    background-image: url(/images/reserva/mail.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+}
+
+.textarea {
+    background-image: url(/images/reserva/write.png);
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 28px;
+    height: 5.3125rem;
+    padding-top: 0.625rem;
+    resize: none;
+}
+
+.button {
+    width: 14.375rem;
+    align-self: center;
+    color: #F7DBA7;
+    background-color: #F3752B;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f39661;
+}
+/*end main*/
+
+/*footer*/
+footer {
+    font-family: 'rounded';
+    color: #8B4513;
+    display: flex;
+    flex-direction: row;
+    background-color: #F3752B;
+    height: 6vh;
+    justify-content: space-between;
+}
+
+.name {
+    padding-left: 2.5rem;
+    align-self: center;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2.5rem;
+    gap: .9375rem;
+    align-self: center;
+}
+
+.icon:hover {
+    width: 40px;
+}
+/*end footer*/
+
+@media (max-height: 900px) {
+  
+    fieldset {
+        margin: 0.9375rem 7.8125rem;
+    }
+    
+    legend {
+        padding-bottom: 0.9375rem;
+    }
+    
+    .table {
+        gap: 0.9375rem;
+    }
+
+    .textarea {
+        height: 4.0625rem;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del Cielo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/estilos/eventos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
+            <ul class="list">
+                <li class="link"><a href="/">Inicio</a></li>
+                <li class="link"><a href="/login">Login</a></li>
+                <li class="link"><a href="/reserva">Reserva</a></li>
+                <li class="link"><a class="ative" href="/eventos">Eventos</a></li>
+                <li class="link"><a href="/contato">Contato</a></li>
+                <li class="link"><a href="/historia">História</a></li>
+                <li class="link"><a href="/cardapio">Cardápio</a></li>
+                <img id="hamburger-icon" class="hamburger" src="images/index/menu-burger-svg.png" alt="Menu">
+            </ul>
+            <%- include('partials/sidebar') %>
+        </nav>
+    </header>
+    <main>
+        <section class="table-evento">
+            <table>
+                <tr>
+                    <td><img class="img" src="images/eventos/ev1.png" alt="Imagem do evento"></td>
+                    <td><h2 class="text"><br>Nosso restaurante está preparando uma série de eventos especiais em celebração ao Dia de los Muertos. Nas sexta-feiras, das 18h às 22h, teremos a "Noite de Altares e História". Nesta ocasião, os clientes poderão participar de um altar comunitário, trazendo fotos de seus entes queridos. Haverá uma apresentação sobre as tradições do feriado e uma degustação de pratos típicos, como pan de muerto e calaveras de açúcar.</h2></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td><h2 class="text"><br><br>Nos sábados, das 12h às 21h, acontecerá o "Festival de Culinária do Dia de los Muertos". Este será um dia repleto de celebrações, com um menu especial que inclui pratos tradicionais do feriado. Os clientes poderão participar de oficinas de culinária, aprendendo a fazer tamales e guacamole, enquanto desfrutam de música ao vivo e danças folclóricas.</h2></td>
+                    <td><img class="img" src="images/eventos/ev2.png" alt="Imagem do evento"></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td><img class="img" src="images/eventos/ev3.png" alt="Imagem do evento"></td>
+                    <td><h2 class="text"><br><br>Para encerrar a programação, nos domingos, das 19h às 22h, teremos a "Noite de Cinema Mexicano". Nessa noite, exibiremos filmes clássicos relacionados ao Dia de los Muertos, como "Coco". O evento contará com um menu de petiscos e drinks temáticos, além de um concurso de fantasias inspirado no feriado.</h2></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h3 class="name">Sabores del Cielo</h3>
+        <div class="icons">
+            <a class="icon" href="#"><img src="images/index/insta.png" alt="Acesse nosso Instagram"></a>
+            <a class="icon" href="#"><img src="images/index/face.png" alt="Acesse nosso Facebook"></a>
+        </div>
+    </footer>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>
