@@ -10,7 +10,7 @@ function cadastroForm(req, res) {
 }
 
 function cadastrar(req, res) {
-    const { nome, email, senha } = req.body;
+    const { nome, email, senha,} = req.body;
 
     const m_sql = `SELECT * FROM usuarios WHERE usu_email = "${email}"`;
     conexao.query(m_sql, (err, results) => {
@@ -25,10 +25,10 @@ function cadastrar(req, res) {
         const insert_sql = `INSERT INTO usuarios (usu_nome, usu_email, usu_password) VALUES ("${nome}", "${email}", "${senha}")`;
         conexao.query(insert_sql, (err, result) => {
             if (err) {
-                return res.status(500).send('Erro ao cadastrar usuário');
+                return res.status(500).send('Erro ao cadastrar usuário: ' + err);
             }
 
-            res.redirect('/login');
+            res.redirect('/reserva');
         });
     });
 }

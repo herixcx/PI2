@@ -17,7 +17,7 @@ function login(req, res) {
         if (err) {
             return res.status(500).send('Erro ao verificar usuário no banco de dados');
         }
-
+        console.log(results)
         if (results.length > 0) {
             req.session.user = results[0];
             return res.redirect('/reserva');
