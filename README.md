@@ -20,9 +20,9 @@ Ao unir elementos de **design** e **funcionalidade**, o projeto busca oferecer u
 ## ✒️ Autores
 
 
-* **Ana Laura Lis Oliveira** - *Página Home/Documentação* - [OliveiraZenith](https://github.com/OliveiraZenith)
-* **Guilherme Heitor Oliveira Barcelos** - *Página Adote/Documentação* - [GuilhermeHeitorB](https://github.com/GuilhermeHeitorB)
-* **Héricles Robert Mendes** - *Páginas Login e Acesse/Documentação/Icones Barra de Navegação* - [herixcx](https://github.com/herixcx)
+* **Ana Laura Lis Oliveira** - *Front-end/Back-end/Documentação* - [OliveiraZenith](https://github.com/OliveiraZenith)
+* **Guilherme Heitor Oliveira Barcelos** - *Back-end/Documentação* - [GuilhermeHeitorB](https://github.com/GuilhermeHeitorB)
+* **Héricles Robert Mendes** - *Front-end/Documentação* - [herixcx](https://github.com/herixcx)
 
 
 ## 📍 Link do Site
