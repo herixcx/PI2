@@ -1,16 +1,21 @@
 # P.I. 2º Semestre - Desenvolvimento de uma solução Web com Banco de Dados Relacional.
 
 
-  Projeto Interdisciplinar do 2º semestre do curso de Desenvolvimento de Softwares Multiplataforma na FATEC de Franca. O objetivo é desenvolver um website utilizando linguagens de programação integradas às tecnologias de front-end exploradas no semestre anterior. Além disso, o projeto inclui a implementação de um Banco de Dados Relacional, gerenciado por um SGBD, e sua integração com o site desenvolvido. O website criado é para um restaurante mexicano fictício inspirado no Día de los Muertos, chamado Sabores del Cielo. Ele consiste em oito páginas principais: Início, Login, Cadastro, Reserva, Eventos, História, Cardápio e Contato. <br>
-  ● Início: Apresenta informações gerais sobre o restaurante e transmite a identidade visual do site.
-  ● Login: Permite que os clientes acessem recursos exclusivos, como a reserva de mesas online.
-  ● Cadastro: Facilita o registro de novos usuários com um formulário simples e intuitivo.
-  ● Reserva: Possui campos para que os clientes personalizem e concluam suas reservas.
-  ● Eventos: Exibe informações e fotos de eventos futuros e passados realizados no restaurante.
-  ● História: Conta a história e destaca as tradições que inspiraram o estabelecimento.
-  ● Cardápio: Apresenta o menu, organizado em refeições para almoço e jantar.
-  ● Contato: Fornece informações de localização, telefone e outros canais de comunicação. <br>
-  Ao unir elementos de design e funcionalidade, o projeto busca oferecer uma experiência agradável e informativa para os usuários. Além disso, promove os serviços e valores do restaurante Sabores del Cielo, reforçando sua identidade e tradição cultural.
+Projeto Interdisciplinar do 2º semestre do curso de **Desenvolvimento de Softwares Multiplataforma** na **FATEC Franca**. O objetivo é desenvolver um website utilizando linguagens de programação integradas às tecnologias de front-end exploradas no semestre anterior. Além disso, o projeto inclui a implementação de um **Banco de Dados Relacional**, gerenciado por um SGBD, e sua integração com o site desenvolvido.  
+
+O website criado é para um restaurante mexicano fictício inspirado no *Día de los Muertos*, chamado **Sabores del Cielo**. Ele consiste em oito páginas principais:  
+
+- **Início:** Apresenta informações gerais sobre o restaurante e transmite a identidade visual do site.  
+- **Login:** Permite que os clientes acessem recursos exclusivos, como a reserva de mesas online.  
+- **Cadastro:** Facilita o registro de novos usuários com um formulário simples e intuitivo.  
+- **Reserva:** Possui campos para que os clientes personalizem e concluam suas reservas.  
+- **Eventos:** Exibe informações e fotos de eventos futuros e passados realizados no restaurante.  
+- **História:** Conta a história e destaca as tradições que inspiraram o estabelecimento.  
+- **Cardápio:** Apresenta o menu, organizado em refeições para almoço e jantar.  
+- **Contato:** Fornece informações de localização, telefone e outros canais de comunicação.  
+
+Ao unir elementos de **design** e **funcionalidade**, o projeto busca oferecer uma experiência agradável e informativa para os usuários. Além disso, promove os serviços e valores do restaurante **Sabores del Cielo**, reforçando sua identidade e tradição cultural.  
+
 
 ## ✒️ Autores
 
