@@ -31,12 +31,17 @@ Ao unir elementos de **design** e **funcionalidade**, o projeto busca oferecer u
 
 ## 📸 Screenshots
 
-![acesse1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/acesse1.png)
-![home1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/home1.png)
-![login1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/login1.png)
-![adote1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/adote1.png)
-![produtos1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/produtos1.png)
-![banho1](https://github.com/OliveiraZenith/PI-1-Semestre/blob/main/img/screenshots/banho1.png)
+![início1](https://github.com/user-attachments/assets/a2517d90-46e1-49cc-94b3-70b7e55db767)
+![login](https://github.com/user-attachments/assets/89078ed0-44ff-40b2-b5fa-184ab1450595)
+![cadastro](https://github.com/user-attachments/assets/2a97b058-7426-49c9-9f73-5f3edb33b54a)
+![eventos](https://github.com/user-attachments/assets/3da771fd-90f3-4d62-80b6-703906f7e630)
+![contato](https://github.com/user-attachments/assets/e308c14f-393f-48d2-a831-69bb1b7f62a7)
+![historia](https://github.com/user-attachments/assets/0d09355b-0d8f-417e-90f1-83ba29a3de5a)
+![cardapio_almoco](https://github.com/user-attachments/assets/79cc5333-83c0-4457-ba94-46f1191e15c7)
+![cardapio_jantar](https://github.com/user-attachments/assets/35ba422b-f55a-4a12-91ab-7be3f0529177)
+
+
+
 
 
 ## 🎁 Expressões de gratidão
