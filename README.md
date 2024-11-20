@@ -25,15 +25,12 @@ Ao unir elementos de **design** e **funcionalidade**, o projeto busca oferecer u
 * **Héricles Robert Mendes** - *Front-end/Documentação* - [herixcx](https://github.com/herixcx)
 
 
-## 📍 Link do Site
-[CãoPany](https://caopany.netlify.app/)
-
-
 ## 📸 Screenshots
 
 ![início1](https://github.com/user-attachments/assets/a2517d90-46e1-49cc-94b3-70b7e55db767)
 ![login](https://github.com/user-attachments/assets/89078ed0-44ff-40b2-b5fa-184ab1450595)
 ![cadastro](https://github.com/user-attachments/assets/2a97b058-7426-49c9-9f73-5f3edb33b54a)
+![reserva](https://github.com/user-attachments/assets/0f77d7d1-d41b-424c-9bdc-26ab1de3bc1f)
 ![eventos](https://github.com/user-attachments/assets/3da771fd-90f3-4d62-80b6-703906f7e630)
 ![contato](https://github.com/user-attachments/assets/e308c14f-393f-48d2-a831-69bb1b7f62a7)
 ![historia](https://github.com/user-attachments/assets/0d09355b-0d8f-417e-90f1-83ba29a3de5a)
