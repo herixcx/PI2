@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'rounded';
+    src: url(/fontes/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'rounded1';
+    src: url(/fontes/Quicksand-VariableFont_wght.ttf);
+}
+   
+
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+
+/*nav*/
+header {
+    font-family: 'rounded';
+    display: flex;
+    flex-direction: row;
+    background-color: #F3752B;
+    width: 100%;
+    height: 23vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.menu {
+    
+    display: none;
+}
+
+.logo {
+    margin: 1.5625rem 0 1.5625rem 2.5rem;
+    align-self: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5625rem;
+    align-self: center;
+    padding-right: 2.5rem;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.link > a {
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.link > a:hover {
+    color: #F7DBA7;
+}
+
+/*nav pagina atual*/
+.ative {
+    color: #F7DBA7 !important;
+}
+/*end nav pagina atual*/
+/*end nav*/
+
+/*main*/
+main {
+    font-family: 'rounded1';
+    color: rgb(59, 21, 4);
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/index/back3.png);
+    background-size: cover; /* Mantém a proporção da imagem */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100%;
+    height: 71vh;
+    justify-content: center;
+}
+
+.container {
+    width: 62.1875rem; 
+}
+
+.title {
+    text-align: center; 
+    margin-bottom: auto; 
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: auto;
+    display: block; 
+    width: 93%; 
+}
+
+.table-index {
+    background-color: #ffffff7c;
+    border-radius: 30px;
+    width: 62.1875rem; 
+    height: 27rem;
+    max-height: 70vh; 
+    align-content: center;
+    align-self: center;
+}
+
+.main-section {
+    display: flex;
+    gap: 105px;
+}
+
+.img {
+    align-self: center;
+}
+
+.text {
+    align-self: center;
+    width: 530px;
+    text-align: justify;
+}
+/*end main*/
+
+/*footer*/
+footer {
+    font-family: 'rounded';
+    color: #8B4513;
+    display: flex;
+    flex-direction: row;
+    background-color: #F3752B;
+    height: 6vh;
+    justify-content: space-between;
+}
+
+.name {
+    padding-left: 2.5rem;
+    align-self: center;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2.5rem;
+    gap: .9375rem;
+    align-self: center;
+}
+
+.icon:hover {
+    width: 40px;
+}
+/*end footer*/
+
+@media (max-width: 768px) {
+    main {
+        background-image: url(/images/background/fundo5.png); /* Usar uma imagem menor para telas menores */
+    }
+}
