@@ -1,3 +1,6 @@
+CREATE database pi;
+USE pi;
+
 CREATE TABLE usuarios (
     usu_nome VARCHAR(100) NOT NULL,
     usu_email VARCHAR(100) UNIQUE PRIMARY KEY,

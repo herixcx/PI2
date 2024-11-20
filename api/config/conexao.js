@@ -3,7 +3,7 @@ var database = "PI";
 
 var conexao = mysql.createConnection({
     user: 'root',
-    password: 'Gui1501',
+    password: 'Herixcx02@',
     host: 'localhost',
     port: 3306
 });
