@@ -4,7 +4,7 @@ const authMiddleware = require('../middlewares/authMiddleware');
 const controllerReserva = require('../controllers/reservaControllers');
 
 router.get('/', authMiddleware, controllerReserva.reserva);
-router.post('/reserva', controllerReserva.reservar)
+router.post('/', controllerReserva.reservar)
 module.exports = router;
 
 

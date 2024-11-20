@@ -6,15 +6,22 @@ var conexao = mysql.createConnection({
     password: 'Gui1501',
     host: 'localhost',
     port: 3306
-})
+});
 
 conexao.connect((err) => {
-    if(err){
-        console.log("Erro ao conectar no Mysql: " + err);
-        return
+    if (err) {
+        console.log("Erro ao conectar no MySQL: " + err.message);
+        return;
     }
-    conexao.query('USE ' + database);
-    console.log("\nConexao Estabelecida com Sucesso!!!");
-})
+
+    // Certifique-se de usar espaço entre 'USE' e o nome do banco
+    conexao.query(`USE ${database}`, (err) => {
+        if (err) {
+            console.log("Erro ao selecionar banco de dados: " + err.message);
+            return;
+        }
+        console.log("\nConexão estabelecida com sucesso e banco selecionado!");
+    });
+});
 
 module.exports = conexao;

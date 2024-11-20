@@ -14,9 +14,11 @@ function login(req, res) {
     const { email, senha } = req.body;
 
     loginModel.validarPSW(email, senha, (err, results) => {
+       console.log(email, senha)
         if (err) {
-            return res.status(500).send('Erro ao verificar usuário no banco de dados');
+            return res.status(500).send('Erro ao verificar usuário no banco de dados' + ':' + err);
         }
+
         console.log(results)
         if (results.length > 0) {
             req.session.user = results[0];

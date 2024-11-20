@@ -11,7 +11,7 @@
         <nav>
             <a class="logo" href="#"><img src="images/index/logo.png" alt="Logo"></a>
             <ul class="list">
-                <li class="link"><a href="/">Início</a></li>
+                <li class="link"><a href="/">Inicio</a></li>
                 <li class="link"><a href="/login">Login</a></li>
                 <li class="link"><a class="ative" href="/reserva">Reserva</a></li>
                 <li class="link"><a href="/eventos">Eventos</a></li>
@@ -27,13 +27,13 @@
         <section class="table-reserva">
             <fieldset>
                 <legend>Faça sua reserva:</legend>
-                <form class="table" action="">
-                    <input class="number border" type="number" placeholder="Número de pessoas" required>
-                    <input class="date border" type="date" placeholder="Dia" required>
-                    <input class="time border" type="time" placeholder="Horário" required>
-                    <input class="text border" type="text" placeholder="Nome" required>
-                    <input class="email border" type="email" placeholder="E-mail" required>
-                    <textarea class="textarea border" name="" id="" placeholder="Oberservações"></textarea>
+                <form class="table" action="/reserva" method="POST">
+                    <input class="number border" type="number" placeholder="Número de pessoas" name="numero_pessoas" required>
+                    <input class="date border" type="date" placeholder="Dia" name="data_ag" required>
+                    <input class="time border" type="time" placeholder="Horário" name="hora_ag" required>
+                    <input class="text border" type="text" placeholder="Nome" name="nome_ag" required>
+                    <input class="email border" type="email" placeholder="E-mail" name="usu_email"required>
+                    <textarea class="textarea border" name="observacoes" id="" placeholder="Oberservações"></textarea>
                     <button class="button border">Salvar</button>
                 </form>
             </fieldset>
